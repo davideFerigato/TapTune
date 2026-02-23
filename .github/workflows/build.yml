@@ -14,14 +14,11 @@ jobs:
           mkdir -p $HOME/Arduino/libraries
           git clone https://github.com/pschatzmann/ESP32-A2DP.git $HOME/Arduino/libraries/ESP32-A2DP
 
-      - name: Install Adafruit libraries via arduino-cli
-        run: |
-          arduino-cli lib update-index
-          arduino-cli lib install "Adafruit GFX Library"
-          arduino-cli lib install "Adafruit SSD1306"
-
       - name: Compile sketch
         uses: arduino/compile-sketches@v1
         with:
           fqbn: esp32:esp32:esp32
           sketch-paths: firmware/src
+          libraries: |
+            - name: "Adafruit GFX Library"
+            - name: "Adafruit SSD1306"
