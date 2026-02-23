@@ -1,5 +1,5 @@
 #include "bluetooth.h"
-#include "audio.h"
+#include "audio/audio.h"
 #include "BluetoothA2DPSink.h"
 
 static BluetoothA2DPSink a2dp_sink;

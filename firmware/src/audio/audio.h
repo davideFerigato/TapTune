@@ -4,8 +4,17 @@
 #include <stdint.h>
 #include <stddef.h>
 
+/**
+ * @brief Initialise the audio subsystem (PWM and timer).
+ */
 void audio_init();
-void audio_update();  // eventuale, se serve
-void audio_play_sample(const uint8_t *data, uint32_t length);  // chiamata dalla callback BT
+
+/**
+ * @brief Feed a chunk of audio samples to the internal buffer.
+ * 
+ * @param data  Pointer to 16-bit PCM samples (little-endian).
+ * @param length Number of bytes.
+ */
+void audio_play_sample(const uint8_t *data, uint32_t length);
 
 #endif

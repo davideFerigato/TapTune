@@ -6,7 +6,7 @@ void led_init() {
     pinMode(PIN_LED_R, OUTPUT);
     pinMode(PIN_LED_G, OUTPUT);
     pinMode(PIN_LED_B, OUTPUT);
-    led_set(0,0,0);
+    led_set(false, false, false);
 }
 
 void led_set(bool r, bool g, bool b) {
@@ -16,7 +16,11 @@ void led_set(bool r, bool g, bool b) {
 }
 
 void led_update_state(bool connected, bool streaming) {
-    if (!connected) led_set(1,0,0);      // rosso
-    else if (streaming) led_set(0,1,0); // verde
-    else led_set(0,0,1);                 // blu
+    if (!connected) {
+        led_set(true, false, false);  // red
+    } else if (streaming) {
+        led_set(false, true, false);  // green
+    } else {
+        led_set(false, false, true);  // blue
+    }
 }

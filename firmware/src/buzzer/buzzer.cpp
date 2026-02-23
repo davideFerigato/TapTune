@@ -13,20 +13,20 @@ void buzzer_init() {
 }
 
 void buzzer_play_startup() {
-    playTone(523,150); delay(50);
-    playTone(659,150); delay(50);
-    playTone(784,250); delay(80);
-    playTone(1047,400);
+    playTone(523, 150); delay(50);
+    playTone(659, 150); delay(50);
+    playTone(784, 250); delay(80);
+    playTone(1047, 400);
 }
 
 void buzzer_play_connect() {
-    playTone(880,120); delay(60);
-    playTone(1319,250);
+    playTone(880, 120); delay(60);
+    playTone(1319, 250);
 }
 
 void buzzer_play_disconnect() {
-    playTone(988,150); delay(50);
-    playTone(784,150); delay(50);
-    playTone(659,200); delay(60);
-    playTone(523,300);
+    playTone(988, 150); delay(50);
+    playTone(784, 150); delay(50);
+    playTone(659, 200); delay(60);
+    playTone(523, 300);
 }
