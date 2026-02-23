@@ -29,16 +29,19 @@ TapTune is a Bluetooth speaker with NFC activation, hypnotic OLED animations, RG
 
 See [assembly guide](docs/assembly_guide.md) for wiring details.
 
-## 📦 Firmware Structure
+## Firmware Structure
+
+```
 firmware/src/
-├── TapTune.ino # Orchestration
-├── pins.h # Pin mapping
-├── config.h # Constants
-├── audio/ # PWM audio output
-├── bluetooth/ # A2DP sink
-├── display/ # OLED animations
-├── led/ # RGB status
-└── buzzer/ # Sound effects
+├── TapTune.ino          # Orchestration
+├── pins.h               # Pin mapping
+├── config.h             # Constants
+├── audio/               # PWM audio output
+├── bluetooth/           # A2DP sink
+├── display/             # OLED animations
+├── led/                 # RGB status
+└── buzzer/              # Sound effects
+```
 
 ## 🚀 Getting Started
 1. Install [Arduino IDE](https://www.arduino.cc/en/software) and ESP32 board support.
