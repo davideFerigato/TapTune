@@ -29,7 +29,7 @@ TapTune is a Bluetooth speaker with NFC activation, hypnotic OLED animations, RG
 
 See [assembly guide](docs/assembly_guide.md) for wiring details.
 
-## Firmware Structure
+## 📦 Firmware Structure
 
 ```
 firmware/src/
