@@ -1,0 +1,28 @@
+# Arduino
+*.ino.cpp
+*.ino.o
+*.elf
+*.hex
+*.eep
+*.map
+*.app
+*.sym
+*.build
+__pycache__/
+*.pyc
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+
+# Compiled output
+build/
+*.bin
+*.partitions.bin
+*.bootloader.bin
+
+# OS files
+.DS_Store
+Thumbs.db
