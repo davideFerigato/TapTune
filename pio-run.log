@@ -1,0 +1,5 @@
+/Users/davideferigato/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Processing esp32dev (platform: espressif32; board: esp32dev; framework: espidf; monitor_speed: 115200; upload_speed: 921600; board_build.flash_mode: dio; board_build.f_cpu: 240000000L; build_flags: -std=c++17, -Os, -DCONFIG_CXX_EXCEPTIONS=0, -DCONFIG_CXX_RTTI=0; platform_packages: tool-cmake@file:///Users/davideferigato/fake-tool-cmake)
+--------------------------------------------------------------------------------
+Tool Manager: Installing platformio/tool-ninja @ ^1.7.0
