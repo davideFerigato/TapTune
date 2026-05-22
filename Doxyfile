@@ -1,0 +1,8 @@
+PROJECT_NAME           = TapTune
+OUTPUT_DIRECTORY       = docs/doxygen
+INPUT                  = firmware/src firmware/components
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+USE_MDFILE_AS_MAINPAGE = README.md
