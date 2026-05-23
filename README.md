@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/davideFerigato/TapTune/main/docs/demo/tap_tune_logo.png" width="200" alt="TapTune Logo"/>
 </p>
 
-<h1 align="center">TapTune – NFC Bluetooth Speaker IoT</h1>
+<h1 align="center">TapTune</h1>
 
 <div align="center">
 
