@@ -9,10 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Doxygen
+
+      - name: Generate Doxygen
         uses: mattnotmitt/doxygen-action@v1
         with:
           doxyfile-path: 'Doxyfile'
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

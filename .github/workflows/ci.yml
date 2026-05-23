@@ -1,18 +1,46 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - name: Install PlatformIO
         run: pip install -U platformio
+
       - name: Build firmware
         run: pio run
-      - name: Run tests
-        run: pio test -e esp32dev_test
+
+      - name: Run native tests
+        run: |
+          cd test_native
+          cmake -S . -B build
+          cmake --build build
+          ./build/test_state_machine
+
+      - name: Install clang-tidy
+        run: sudo apt-get update && sudo apt-get install -y clang-tidy
+
+      - name: Run clang-tidy
+        run: |
+          clang-tidy --version
+          # Analizza i file del progetto, escludendo LVGL e build/test
+          find components src -name '*.cpp' -o -name '*.hpp' \
+            | grep -v lvgl \
+            | xargs clang-tidy -p .pio/build/esp32dev \
+              --extra-arg=-std=c++17 \
+              --warnings-as-errors='*' \
+              || true  # Non blocca la CI, verrà migliorato in futuro
