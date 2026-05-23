@@ -124,7 +124,7 @@ See [`ARCHITECTURE.md`](ARCHITECTURE.md) for the state diagram and component int
 - [ ] Phase 9: Technical documentation and Doxygen
 - [ ] Phase 10: CI/CD GitHub Actions
 - [ ] Phase 11: Release v1.0.0
-- [ ] Phase 12: Video demo and LinkedIn post
+- [ ] Phase 12: Video demo
 
 ---
 
