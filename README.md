@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/davideferigato/TapTune/main/docs/demo/tap_tune_logo.png" width="200" alt="TapTune Logo"/>
+  <img src="https://raw.githubusercontent.com/davideFerigato/TapTune/main/docs/demo/tap_tune_logo.png" width="200" alt="TapTune Logo"/>
 </p>
 
 <h1 align="center">TapTune – NFC Bluetooth Speaker IoT</h1>
@@ -10,9 +10,9 @@
 ![Framework](https://img.shields.io/badge/framework-ESP--IDF%206.0-red)
 ![C++17](https://img.shields.io/badge/C++-17-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/davideferigato/TapTune/ci.yml?label=CI)
-![GitHub last commit](https://img.shields.io/github/last-commit/davideferigato/TapTune)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/davideferigato/TapTune?label=release)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/davideFerigato/TapTune/ci.yml?label=CI)
+![GitHub last commit](https://img.shields.io/github/last-commit/davideFerigato/TapTune)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/davideFerigato/TapTune?label=release)
 
 </div>
 
@@ -66,7 +66,7 @@ TapTune/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/davideferigato/TapTune.git
+   git clone https://github.com/davideFerigato/TapTune.git
    cd TapTune
    ```
 2. Build:
@@ -119,7 +119,7 @@ See [`ARCHITECTURE.md`](ARCHITECTURE.md) for the state diagram and component int
 
 ## 📈 Roadmap
 
-- [x] Phase 0‑7: Setup, core components, integration
+- [ ] Phase 0‑7: Setup, core components, integration
 - [ ] Phase 8: End‑to‑end integration, system tests
 - [ ] Phase 9: Technical documentation and Doxygen
 - [ ] Phase 10: CI/CD GitHub Actions

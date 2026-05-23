@@ -2,7 +2,7 @@
 
 **Status:** Accepted
 
-**Date:** 2026-05-22
+**Date:** 2022-11-20
 
 **Context:**  
 The SSD1306 128x64 display must show device status with clear text and, in the future, animations. Two main alternatives exist.

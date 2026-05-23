@@ -2,7 +2,7 @@
 
 **Status:** Accepted
 
-**Date:** 2026-05-22
+**Date:** 2022-11-03
 
 **Context:**  
 TapTune must allow a phone to receive an NDEF record that opens Bluetooth settings. The PN532 can work as a reader or as an emulated tag.

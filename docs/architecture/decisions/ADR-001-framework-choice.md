@@ -2,7 +2,7 @@
 
 **Status:** Accepted
 
-**Date:** 2026-05-22
+**Date:** 2022-10-15
 
 **Context:**  
 We need to develop firmware for ESP32 featuring Bluetooth A2DP, NFC, LVGL display, and real‑time I/O. The base framework must be chosen.

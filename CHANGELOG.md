@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.0] – 2026-05-23
+## [0.1.0] – 2022-12-20
 
 ### Added
 - State machine with 5 states and callback
