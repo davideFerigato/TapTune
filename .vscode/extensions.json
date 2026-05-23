@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "platformio.platformio-ide",
+        "ms-vscode.cpptools",
+        "eamodio.gitlens",
+        "editorconfig.editorconfig",
+        "bierner.markdown-mermaid"
+    ]
+}
