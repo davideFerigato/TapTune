@@ -11,3 +11,24 @@ sdkconfig.old
 __pycache__
 .DS_Store
 docs/doxygen/
+# PlatformIO e build
+.pio/
+build/
+sdkconfig
+sdkconfig.old
+
+# Log e file temporanei
+*.log
+tree.txt
+
+# Lock file
+dependencies.lock
+
+# Build test nativi
+test_native/build/
+
+# File di sistema macOS
+.DS_Store
+
+# Directory vuota residua
+include/
