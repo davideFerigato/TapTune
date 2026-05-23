@@ -1,18 +1,20 @@
 # Changelog
 
-## [0.1.0] – 2022-12-20
+## [1.0.0] – 2022-12-22
 
 ### Added
-- State machine with 5 states and callback
-- LED indicator (RGB)
+- First stable release
+- Full state machine with 5 states
+- RGB LED indicator
 - Non‑blocking PWM tone player
-- Display manager based on LVGL for SSD1306 OLED
-- Bluetooth A2DP sink (discoverable, events)
-- NFC manager PN532 (tag emulation)
-- Unit tests for state machine
-- Documentation: README, ARCHITECTURE, ADR, CHANGELOG
-- CI/CD GitHub Actions (build and test) – placeholder
+- LVGL-based display manager for SSD1306 OLED
+- Bluetooth A2DP sink (discoverable, event-driven)
+- NFC manager using PN532 in tag emulation mode
+- Unit tests for state machine (Unity + native C++)
+- Complete documentation: README, architecture, ADR, Doxygen
+- CI/CD pipeline with build, test, clang-tidy, and documentation deployment
+- GitHub Actions workflows for CI and Docs
 
 ### Fixed
-- Build system: used 4 MB flash, custom partition table
-- Fixed CMake dependencies (ESP-IDF v6 drivers)
+- Build system configured for 4 MB flash
+- CMake dependencies aligned with ESP‑IDF v6 drivers
