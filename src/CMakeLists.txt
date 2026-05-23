@@ -10,5 +10,6 @@ idf_component_register(
         tone_player
         display_manager
         bt_manager
+        nfc_manager
         taptune_config
 )
