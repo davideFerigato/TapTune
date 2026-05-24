@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['9_200_2005_2001_202021_0',['v7.9.0 (05.01.2021)',['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md132',1,'']]],
-  ['9_201_2019_2001_202021_1',['v7.9.1 (19.01.2021)',['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md130',1,'']]],
-  ['9_206_20august_202023_2',['&lt;a href=&quot;https://github.com/lvgl/lvgl/compare/v8.3.9...v8.3.8&quot;&gt;v8.3.9&lt;/a&gt; 6 August 2023',['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md37',1,'']]]
+  ['nfc_5fmanager_2ecpp_0',['nfc_manager.cpp',['../nfc__manager_8cpp.html',1,'']]],
+  ['nfc_5fmanager_2ehpp_1',['nfc_manager.hpp',['../nfc__manager_8hpp.html',1,'']]],
+  ['nfcmanager_2',['NfcManager',['../classtaptune_1_1_nfc_manager.html',1,'taptune::NfcManager'],['../classtaptune_1_1_nfc_manager.html#af708d41d9d02d49631e89c7e933497b2',1,'taptune::NfcManager::NfcManager()']]],
+  ['nfctapped_3',['NfcTapped',['../namespacetaptune.html#ae1182987dce568766a59b350239a2ef7a6c0d86f4398ac6548e819edc217c203b',1,'taptune']]]
 ];

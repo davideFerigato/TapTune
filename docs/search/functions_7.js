@@ -1,21 +1,4 @@
 var searchData=
 [
-  ['gauge_5fanim_0',['gauge_anim',['../namespacelv__demo__widgets.html#abc0d9380a66307a1d78f394e3ca2a5dc',1,'lv_demo_widgets']]],
-  ['generate_5fcode_5fcoverage_5freport_1',['generate_code_coverage_report',['../namespacemain.html#a0e9e326f69048495a404f3118bc94078',1,'main']]],
-  ['generate_5ftest_5frunners_2',['generate_test_runners',['../namespacemain.html#a13605ce3cab8d9db5404c87aa13b3413',1,'main']]],
-  ['get_5fbase_5fbuid_5fdir_3',['get_base_buid_dir',['../namespacemain.html#a0b0d5e33e3f0332ade7d60019737b3c1',1,'main']]],
-  ['get_5fbuild_5fdir_4',['get_build_dir',['../namespacemain.html#ac7183ac7ceb9de730b9d59d270f738ff',1,'main']]],
-  ['get_5fexample_5fcode_5fpath_5',['get_example_code_path',['../classlv__example_1_1_lv_example.html#ae13f35ae825cd9464a7c5edc45f8d94d',1,'lv_example::LvExample']]],
-  ['get_5ficon_6',['get_icon',['../namespacelv__example__bar__4.html#a6eee0da9b2bc3af6e525c3c075576cf7',1,'lv_example_bar_4']]],
-  ['get_5flvgl_5fversion_7',['get_lvgl_version',['../namespacecom.html#a0ddf75732a81fc3c62bcc53e54cbca2d',1,'com']]],
-  ['get_5foption_5fdescription_8',['get_option_description',['../namespacemain.html#a8cdc25dd512bf71266baabfdf3565237',1,'main']]],
-  ['get_5fstate_9',['get_state',['../lv__imgbtn_8c.html#a9c93935a3f759d38af71d3ab0f24f192',1,'lv_imgbtn.c']]],
-  ['get_5ftick_5fgsc_10',['get_tick_gsc',['../lv__chart_8c.html#ae36ac3a68acd10d61123bf48fdbca861',1,'lv_chart.c']]],
-  ['getalignmentpatternpositions_11',['getAlignmentPatternPositions',['../qrcodegen_8c.html#a7a7938db5bdc0a2abae8ff2ec0ad1fee',1,'qrcodegen.c']]],
-  ['getmodule_12',['getModule',['../qrcodegen_8c.html#aa5e9c1e3dba75fbe2ad23258d8223a8e',1,'qrcodegen.c']]],
-  ['getnumdatacodewords_13',['getNumDataCodewords',['../qrcodegen_8c.html#ae3402527eaf904babc6f218acd6195af',1,'qrcodegen.c']]],
-  ['getnumrawdatamodules_14',['getNumRawDataModules',['../qrcodegen_8c.html#a8725e511e96e40dda99377e2f89bcda5',1,'qrcodegen.c']]],
-  ['getstate_15',['getState',['../classtaptune_1_1_state_machine.html#afbab88e29f5d5d5f9672f41fe66657bf',1,'taptune::StateMachine']]],
-  ['gettotalbits_16',['getTotalBits',['../qrcodegen_8c.html#a2a6584906b509f7a7833d20473de86e9',1,'qrcodegen.c']]],
-  ['github_5fpath_17',['github_path',['../classlv__example_1_1_lv_example.html#a9c44bc7e154a0446f49b96ac81336c89',1,'lv_example::LvExample']]]
+  ['pollevent_0',['pollEvent',['../classtaptune_1_1_bt_manager.html#a579387258b8c9952bc72c8fb95ea1cf5',1,'taptune::BtManager::pollEvent()'],['../classtaptune_1_1_nfc_manager.html#a07279979ee10ba43c8b4352d2b5e15c9',1,'taptune::NfcManager::pollEvent()']]]
 ];

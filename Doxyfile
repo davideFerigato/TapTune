@@ -1,6 +1,7 @@
 PROJECT_NAME           = TapTune
 OUTPUT_DIRECTORY       = docs
 INPUT                  = src components
+EXCLUDE                = components/lvgl
 RECURSIVE              = YES
 EXTRACT_ALL            = YES
 GENERATE_LATEX         = NO

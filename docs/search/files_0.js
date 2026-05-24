@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['_5ftest_5ftemplate_2ec_0',['_test_template.c',['../__test__template_8c.html',1,'']]]
+  ['audio_5fmanager_2ecpp_0',['audio_manager.cpp',['../audio__manager_8cpp.html',1,'']]],
+  ['audio_5fmanager_2ehpp_1',['audio_manager.hpp',['../audio__manager_8hpp.html',1,'']]]
 ];
