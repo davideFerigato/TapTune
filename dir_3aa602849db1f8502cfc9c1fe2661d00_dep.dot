@@ -1,0 +1,16 @@
+digraph "components/lvgl/demos/music"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_782f02802e09e6a76b74e572cc41ef27 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="demos", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_782f02802e09e6a76b74e572cc41ef27.html",tooltip=""]
+  subgraph clusterdir_3aa602849db1f8502cfc9c1fe2661d00 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_3aa602849db1f8502cfc9c1fe2661d00.html",tooltip=""]
+    dir_3aa602849db1f8502cfc9c1fe2661d00 [shape=plaintext, label="music"];
+  dir_649cfc745a6ce43d6e804c014caac16e [label="assets", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_649cfc745a6ce43d6e804c014caac16e.html",tooltip=""];
+  }
+  }
+}

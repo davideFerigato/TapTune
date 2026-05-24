@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-12-22T00:00:00.000Z" agent="TapTune" version="22.0.0" type="device">
+  <diagram name="TapTune Schematic" id="schematic">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ESP32 DevKit V1 -->
+        <mxCell id="esp32" value="ESP32 DevKit V1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="esp32-gpio21" value="GPIO21" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esp32-gpio22" value="GPIO22" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="390" y="250" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esp32-gpio32" value="GPIO32" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esp32-gpio33" value="GPIO33" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esp32-gpio27" value="GPIO27" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#FF00FF;" vertex="1" parent="1">
+          <mxGeometry x="390" y="190" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esp32-gpio14" value="GPIO14" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="390" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esp32-gpio25" value="GPIO25" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esp32-gpio26" value="GPIO26" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="390" y="130" width="60" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- OLED SSD1306 -->
+        <mxCell id="oled" value="OLED SSD1306 128x64" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oled-sda" value="SDA" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="700" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oled-scl" value="SCL" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="740" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- PN532 -->
+        <mxCell id="pn532" value="PN532 NFC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pn532-sda" value="SDA" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="700" y="180" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pn532-scl" value="SCL" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="740" y="180" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- LED RGB -->
+        <mxCell id="led" value="LED RGB" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="100" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Buzzer -->
+        <mxCell id="buzzer" value="Buzzer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- PAM8403 -->
+        <mxCell id="pam" value="PAM8403 Amplifier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="550" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Speakers -->
+        <mxCell id="spk-l" value="Speaker L" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="550" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="spk-r" value="Speaker R" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="640" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Collegamenti -->
+        <mxCell id="edge-i2c-sda" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066CC;" edge="1" parent="1" source="esp32-gpio21" target="oled-sda">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-i2c-sda2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066CC;dashed=1;" edge="1" parent="1" source="oled-sda" target="pn532-sda">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-i2c-scl" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066CC;" edge="1" parent="1" source="esp32-gpio22" target="oled-scl">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-i2c-scl2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066CC;dashed=1;" edge="1" parent="1" source="oled-scl" target="pn532-scl">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge-led-r" value="220Ω" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="1" source="esp32-gpio32" target="led">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-led-g" value="220Ω" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#00FF00;" edge="1" parent="1" source="esp32-gpio33" target="led">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-led-b" value="220Ω" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF00FF;" edge="1" parent="1" source="esp32-gpio27" target="led">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge-buzzer" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="esp32-gpio14" target="buzzer">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge-audio-l" value="10µF" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="esp32-gpio25" target="pam">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-audio-r" value="10µF" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="esp32-gpio26" target="pam">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge-spk-l" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="pam" target="spk-l">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-spk-r" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="pam" target="spk-r">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Etichette aggiuntive -->
+        <mxCell id="label-i2c" value="I2C Bus (shared)" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#0066CC;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="700" y="330" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="label-led" value="220Ω resistors" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#FF0000;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="120" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

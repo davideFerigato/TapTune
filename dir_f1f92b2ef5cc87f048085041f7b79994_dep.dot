@@ -1,0 +1,12 @@
+digraph "components/lvgl/src/extra/libs/rlottie"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_009a0f7ab52156ec993fd4b1b3264486 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="libs", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_009a0f7ab52156ec993fd4b1b3264486.html",tooltip=""]
+  dir_f1f92b2ef5cc87f048085041f7b79994 [label="rlottie", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_f1f92b2ef5cc87f048085041f7b79994.html",tooltip=""];
+  }
+}

@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['scroll_0',['Scroll',['../md_components_2lvgl_2docs_2overview_2scroll.html',1,'']]],
+  ['sdl_20renderer_1',['SDL renderer',['../md_components_2lvgl_2docs_2overview_2renderers_2sdl.html',1,'']]],
+  ['series_2',['Espressif (ESP32 chip series)',['../md_components_2lvgl_2docs_2get-started_2platforms_2espressif.html',1,'']]],
+  ['set_20up_20a_20project_3',['Set up a project',['../md_components_2lvgl_2docs_2porting_2project.html',1,'']]],
+  ['simulator_20on_20pc_4',['Simulator on PC',['../md_components_2lvgl_2docs_2get-started_2platforms_2pc-simulator.html',1,'']]],
+  ['sizes_20and_20layouts_5',['Positions, sizes, and layouts',['../md_components_2lvgl_2docs_2overview_2coords.html',1,'']]],
+  ['sleep_20management_6',['Sleep management',['../md_components_2lvgl_2docs_2porting_2sleep.html',1,'']]],
+  ['slider_20lv_5fslider_7',['Slider (lv_slider)',['../md_components_2lvgl_2docs_2widgets_2core_2slider.html',1,'']]],
+  ['snapshot_8',['Snapshot',['../md_components_2lvgl_2docs_2others_2snapshot.html',1,'']]],
+  ['software_20renderer_9',['Software renderer',['../md_components_2lvgl_2docs_2overview_2renderers_2sw.html',1,'']]],
+  ['span_20lv_5fspan_10',['Span (lv_span)',['../md_components_2lvgl_2docs_2widgets_2extra_2span.html',1,'']]],
+  ['spinbox_20lv_5fspinbox_11',['Spinbox (lv_spinbox)',['../md_components_2lvgl_2docs_2widgets_2extra_2spinbox.html',1,'']]],
+  ['spinner_20lv_5fspinner_12',['Spinner (lv_spinner)',['../md_components_2lvgl_2docs_2widgets_2extra_2spinner.html',1,'']]],
+  ['started_13',['Get started',['../md_components_2lvgl_2docs_2get-started_2index.html',1,'']]],
+  ['stm32_14',['STM32',['../md_components_2lvgl_2docs_2get-started_2platforms_2stm32.html',1,'']]],
+  ['style_15',['Coding style',['../md_components_2lvgl_2docs_2CODING__STYLE.html',1,'']]],
+  ['style_20properties_16',['Style properties',['../md_components_2lvgl_2docs_2overview_2style-props.html',1,'']]],
+  ['styles_17',['Styles',['../md_components_2lvgl_2docs_2overview_2style.html',1,'']]],
+  ['support_18',['support',['../md_components_2lvgl_2docs_2libs_2ffmpeg.html',1,'FFmpeg support'],['../md_components_2lvgl_2docs_2libs_2freetype.html',1,'FreeType support']]],
+  ['switch_20lv_5fswitch_19',['Switch (lv_switch)',['../md_components_2lvgl_2docs_2widgets_2core_2switch.html',1,'']]],
+  ['system_20',['File system',['../md_components_2lvgl_2docs_2overview_2file-system.html',1,'']]],
+  ['system_20and_20interrupts_21',['Operating system and interrupts',['../md_components_2lvgl_2docs_2porting_2os.html',1,'']]],
+  ['system_20interfaces_22',['File System Interfaces',['../md_components_2lvgl_2docs_2libs_2fsdrv.html',1,'']]]
+];

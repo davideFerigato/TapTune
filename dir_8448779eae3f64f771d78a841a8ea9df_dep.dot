@@ -1,0 +1,22 @@
+digraph "components/display_manager"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_409f97388efe006bc3438b95e9edef48 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="components", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_409f97388efe006bc3438b95e9edef48.html",tooltip=""]
+  dir_5166a3dda26949dda15813d86090531f [label="state_machine", fillcolor="#a2b4d6", color="red", style="filled", URL="dir_5166a3dda26949dda15813d86090531f.html",tooltip=""];
+  dir_88015a5f2480cf5918e7361e811a495e [label="taptune_config", fillcolor="#a2b4d6", color="red", style="filled", URL="dir_88015a5f2480cf5918e7361e811a495e.html",tooltip=""];
+  subgraph clusterdir_8448779eae3f64f771d78a841a8ea9df {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_8448779eae3f64f771d78a841a8ea9df.html",tooltip=""]
+    dir_8448779eae3f64f771d78a841a8ea9df [shape=plaintext, label="display_manager"];
+  dir_4b01e9a6c468a6fce61f55053e6047f7 [label="include", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_4b01e9a6c468a6fce61f55053e6047f7.html",tooltip=""];
+  dir_4aa9b46a452ecb48cdea89d3fe0a893e [label="src", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_4aa9b46a452ecb48cdea89d3fe0a893e.html",tooltip=""];
+  }
+  }
+  dir_4b01e9a6c468a6fce61f55053e6047f7->dir_5166a3dda26949dda15813d86090531f [headlabel="1", labeldistance=1.5 headhref="dir_000073_000160.html" href="dir_000073_000160.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_4aa9b46a452ecb48cdea89d3fe0a893e->dir_4b01e9a6c468a6fce61f55053e6047f7 [headlabel="1", labeldistance=1.5 headhref="dir_000152_000073.html" href="dir_000152_000073.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_4aa9b46a452ecb48cdea89d3fe0a893e->dir_88015a5f2480cf5918e7361e811a495e [headlabel="2", labeldistance=1.5 headhref="dir_000152_000170.html" href="dir_000152_000170.html" color="steelblue1" fontcolor="steelblue1"];
+}

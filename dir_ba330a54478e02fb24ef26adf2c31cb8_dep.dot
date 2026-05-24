@@ -1,0 +1,16 @@
+digraph "components/lvgl/docs/overview"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_20eb185097cf05676f9f75bb2601f847 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="docs", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_20eb185097cf05676f9f75bb2601f847.html",tooltip=""]
+  subgraph clusterdir_ba330a54478e02fb24ef26adf2c31cb8 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_ba330a54478e02fb24ef26adf2c31cb8.html",tooltip=""]
+    dir_ba330a54478e02fb24ef26adf2c31cb8 [shape=plaintext, label="overview"];
+  dir_293677daaa1fc14f030643b474c6b7ea [label="renderers", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_293677daaa1fc14f030643b474c6b7ea.html",tooltip=""];
+  }
+  }
+}
