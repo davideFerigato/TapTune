@@ -16,7 +16,15 @@ namespace taptune {
  */
 class LedIndicator {
 public:
+    /**
+     * @brief Initializes the GPIO pins for the RGB LED.
+     */
     LedIndicator();
+
+    /**
+     * @brief Applies the LED color corresponding to the given state.
+     * @param state The application state.
+     */
     void applyState(AppState state);
 
 private:

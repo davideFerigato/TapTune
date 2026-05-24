@@ -15,9 +15,20 @@ namespace taptune {
  */
 class NfcManager {
 public:
+    /**
+     * @brief Initializes the PN532 and configures it as an NFC target.
+     */
     NfcManager();
+
+    /**
+     * @brief Deinitializes resources.
+     */
     ~NfcManager();
 
+    /**
+     * @brief Retrieves the next event from the NFC event queue, if any.
+     * @return std::optional<AppEvent> The event, or std::nullopt if queue is empty.
+     */
     std::optional<AppEvent> pollEvent();
 
 private:

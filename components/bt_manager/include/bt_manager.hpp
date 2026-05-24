@@ -15,12 +15,30 @@ namespace taptune {
  */
 class BtManager {
 public:
+    /**
+     * @brief Initializes the Bluetooth controller and A2DP sink.
+     */
     BtManager();
+
+    /**
+     * @brief Cleans up Bluetooth resources.
+     */
     ~BtManager();
 
+    /**
+     * @brief Makes the device discoverable and ready to accept connections.
+     */
     void start();
+
+    /**
+     * @brief Disconnects and stops advertising.
+     */
     void stop();
 
+    /**
+     * @brief Retrieves the next event from the Bluetooth event queue, if any.
+     * @return std::optional<AppEvent> The event, or std::nullopt if queue is empty.
+     */
     std::optional<AppEvent> pollEvent();
 
 private:

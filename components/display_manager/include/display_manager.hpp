@@ -15,10 +15,25 @@ namespace taptune {
  */
 class DisplayManager {
 public:
+    /**
+     * @brief Initializes I2C and LVGL, sets up the default screen.
+     */
     DisplayManager();
+
+    /**
+     * @brief Deinitializes LVGL.
+     */
     ~DisplayManager();
 
+    /**
+     * @brief Updates the label on the display to reflect the new state.
+     * @param state The current application state.
+     */
     void applyState(AppState state);
+
+    /**
+     * @brief Calls the LVGL timer handler. Must be called every 20ms.
+     */
     void tick();
 
 private:

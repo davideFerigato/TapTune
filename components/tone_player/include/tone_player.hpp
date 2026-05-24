@@ -13,8 +13,20 @@ namespace taptune {
  */
 class TonePlayer {
 public:
+    /**
+     * @brief Configures the LEDC peripheral for PWM output.
+     */
     TonePlayer();
+
+    /**
+     * @brief Updates the active tone pattern based on state changes.
+     * @param state The new application state.
+     */
     void onStateChanged(AppState state);
+
+    /**
+     * @brief Periodically updates the PWM output. Call every 20ms.
+     */
     void tick();
 
 private:
