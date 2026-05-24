@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['nfc_5fmanager_2ecpp_0',['nfc_manager.cpp',['../nfc__manager_8cpp.html',1,'']]],
-  ['nfc_5fmanager_2ehpp_1',['nfc_manager.hpp',['../nfc__manager_8hpp.html',1,'']]],
-  ['nfcmanager_2',['nfcmanager',['../classtaptune_1_1NfcManager.html',1,'taptune::NfcManager'],['../classtaptune_1_1NfcManager.html#af708d41d9d02d49631e89c7e933497b2',1,'taptune::NfcManager::NfcManager()']]],
-  ['nfctapped_3',['NfcTapped',['../namespacetaptune.html#ae1182987dce568766a59b350239a2ef7a6c0d86f4398ac6548e819edc217c203b',1,'taptune']]]
+  ['led_5findicator_2ecpp_0',['led_indicator.cpp',['../led__indicator_8cpp.html',1,'']]],
+  ['led_5findicator_2ehpp_1',['led_indicator.hpp',['../led__indicator_8hpp.html',1,'']]],
+  ['ledindicator_2',['ledindicator',['../classtaptune_1_1LedIndicator.html',1,'taptune::LedIndicator'],['../classtaptune_1_1LedIndicator.html#a94ebfa163a2a0cc25731e8538163299f',1,'taptune::LedIndicator::LedIndicator()']]]
 ];

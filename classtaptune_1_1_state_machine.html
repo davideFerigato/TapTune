@@ -119,6 +119,9 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('classtaptune_1
 </div><!--header-->
 <div class="contents">
 
+<p>Finite state machine for TapTune.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="state__machine_8hpp_source.html">state_machine.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -131,7 +134,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac506daeb42de8ae599e6a28f8be7b16b" id="r_ac506daeb42de8ae599e6a28f8be7b16b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac506daeb42de8ae599e6a28f8be7b16b">dispatch</a> (<a class="el" href="namespacetaptune.html#ae1182987dce568766a59b350239a2ef7">AppEvent</a> event)</td></tr>
 <tr class="memitem:afbab88e29f5d5d5f9672f41fe66657bf" id="r_afbab88e29f5d5d5f9672f41fe66657bf"><td class="memItemLeft"><a class="el" href="namespacetaptune.html#ad83b1f68253d00eabc838cb109086c4c">AppState</a>&#160;</td><td class="memItemRight"><a class="el" href="#afbab88e29f5d5d5f9672f41fe66657bf">getState</a> () const</td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Finite state machine for TapTune. </p>
+<p>Manages the application's states: Boot, Idle, Connecting, Connected, Streaming. Each state transition can be observed via a callback. </p>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="a8702e34bf5b16f99ef07baf2e210ca14" name="a8702e34bf5b16f99ef07baf2e210ca14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8702e34bf5b16f99ef07baf2e210ca14">&#9670;&#160;</a></span>StateCallback</h2>
 

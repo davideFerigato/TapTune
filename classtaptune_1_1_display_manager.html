@@ -119,6 +119,9 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('classtaptune_1
 </div><!--header-->
 <div class="contents">
 
+<p>Manages the OLED display.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="display__manager_8hpp_source.html">display_manager.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -128,7 +131,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aed0613231b6464c7e47f4408efe72a47" id="r_aed0613231b6464c7e47f4408efe72a47"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aed0613231b6464c7e47f4408efe72a47">applyState</a> (<a class="el" href="namespacetaptune.html#ad83b1f68253d00eabc838cb109086c4c">AppState</a> state)</td></tr>
 <tr class="memitem:abd467fea887678134edd5b7a53f4f82e" id="r_abd467fea887678134edd5b7a53f4f82e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abd467fea887678134edd5b7a53f4f82e">tick</a> ()</td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Manages the OLED display. </p>
+<p>Initializes the I2C bus for the SSD1306 display and the LVGL library. Updates the screen in real-time to reflect the current application state (e.g., "Idle", "Streaming"). </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4724633e94749f70f38c63819636c944" name="a4724633e94749f70f38c63819636c944"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4724633e94749f70f38c63819636c944">&#9670;&#160;</a></span>DisplayManager()</h2>
 

@@ -80,6 +80,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Controls the RGB LED indicator.  
+ <a href="classtaptune_1_1LedIndicator.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="led__indicator_8hpp_source.html">led_indicator.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -89,7 +92,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a693918dcafcfefbf1a381c8868ff9648" id="r_a693918dcafcfefbf1a381c8868ff9648"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1LedIndicator.html#a693918dcafcfefbf1a381c8868ff9648">applyState</a> (<a class="el" href="namespacetaptune.html#ad83b1f68253d00eabc838cb109086c4c">AppState</a> state)</td></tr>
 <tr class="separator:a693918dcafcfefbf1a381c8868ff9648"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Controls the RGB LED indicator. </p>
+<p>Translates an AppState into a specific LED color:</p><ul>
+<li>Boot: OFF</li>
+<li>Idle: Red</li>
+<li>Connecting: Magenta</li>
+<li>Connected: Blue</li>
+<li>Streaming: Green </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a94ebfa163a2a0cc25731e8538163299f" name="a94ebfa163a2a0cc25731e8538163299f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a94ebfa163a2a0cc25731e8538163299f">&#9670;&#160;</a></span>LedIndicator()</h2>
 

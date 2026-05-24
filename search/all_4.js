@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['getstate_0',['getState',['../classtaptune_1_1StateMachine.html#afbab88e29f5d5d5f9672f41fe66657bf',1,'taptune::StateMachine']]]
+  ['features_0',['✨ Features',['../md_README.html#autotoc_md1',1,'']]],
+  ['firmware_20architecture_1',['🧠 Firmware Architecture',['../md_README.html#autotoc_md12',1,'']]]
 ];
