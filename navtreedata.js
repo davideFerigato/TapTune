@@ -25,8 +25,17 @@
 var NAVTREE =
 [
   [ "TapTune", "index.html", [
-    [ "README", "md__r_e_a_d_m_e.html", null ],
     [ "Namespaces", "namespaces.html", [
+      [ "✨ Features", "index.html#autotoc_md1", null ],
+      [ "📂 Repository Structure", "index.html#autotoc_md3", null ],
+      [ "🚀 Getting Started", "index.html#autotoc_md5", [
+        [ "Prerequisites", "index.html#autotoc_md6", null ],
+        [ "Build and Upload", "index.html#autotoc_md7", null ],
+        [ "Running Tests", "index.html#autotoc_md8", null ]
+      ] ],
+      [ "🧩 Hardware", "index.html#autotoc_md10", null ],
+      [ "🧠 Firmware Architecture", "index.html#autotoc_md12", null ],
+      [ "📈 Roadmap", "index.html#autotoc_md14", null ],
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
