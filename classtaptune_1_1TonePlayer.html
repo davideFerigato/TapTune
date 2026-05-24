@@ -58,10 +58,13 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f9b29a0525c6399f6a18f93e375d8bc" id="r_a0f9b29a0525c6399f6a18f93e375d8bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1TonePlayer.html#a0f9b29a0525c6399f6a18f93e375d8bc">TonePlayer</a> ()</td></tr>
+<tr class="memdesc:a0f9b29a0525c6399f6a18f93e375d8bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the LEDC peripheral for PWM output.  <br /></td></tr>
 <tr class="separator:a0f9b29a0525c6399f6a18f93e375d8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a213c7eb6694ca7e2005a2e1f9c53ecbb" id="r_a213c7eb6694ca7e2005a2e1f9c53ecbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1TonePlayer.html#a213c7eb6694ca7e2005a2e1f9c53ecbb">onStateChanged</a> (<a class="el" href="namespacetaptune.html#ad83b1f68253d00eabc838cb109086c4c">AppState</a> state)</td></tr>
+<tr class="memdesc:a213c7eb6694ca7e2005a2e1f9c53ecbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the active tone pattern based on state changes.  <br /></td></tr>
 <tr class="separator:a213c7eb6694ca7e2005a2e1f9c53ecbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c8135285e12e551aa70b24c3e3a655" id="r_ad8c8135285e12e551aa70b24c3e3a655"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1TonePlayer.html#ad8c8135285e12e551aa70b24c3e3a655">tick</a> ()</td></tr>
+<tr class="memdesc:ad8c8135285e12e551aa70b24c3e3a655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Periodically updates the PWM output. Call every 20ms.  <br /></td></tr>
 <tr class="separator:ad8c8135285e12e551aa70b24c3e3a655"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -86,6 +89,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Configures the LEDC peripheral for PWM output. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -105,6 +110,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Updates the active tone pattern based on state changes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>The new application state. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ad8c8135285e12e551aa70b24c3e3a655" name="ad8c8135285e12e551aa70b24c3e3a655"></a>
@@ -121,6 +134,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Periodically updates the PWM output. Call every 20ms. </p>
 
 </div>
 </div>

@@ -58,14 +58,19 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af0f3aa2be4ba29e9d6714914820db484" id="r_af0f3aa2be4ba29e9d6714914820db484"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1BtManager.html#af0f3aa2be4ba29e9d6714914820db484">BtManager</a> ()</td></tr>
+<tr class="memdesc:af0f3aa2be4ba29e9d6714914820db484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the Bluetooth controller and A2DP sink.  <br /></td></tr>
 <tr class="separator:af0f3aa2be4ba29e9d6714914820db484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e63f9313479d774e56ee10009676ccd" id="r_a5e63f9313479d774e56ee10009676ccd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1BtManager.html#a5e63f9313479d774e56ee10009676ccd">~BtManager</a> ()</td></tr>
+<tr class="memdesc:a5e63f9313479d774e56ee10009676ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans up Bluetooth resources.  <br /></td></tr>
 <tr class="separator:a5e63f9313479d774e56ee10009676ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a575d31becc3b387ea3417edb1fd798" id="r_a2a575d31becc3b387ea3417edb1fd798"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1BtManager.html#a2a575d31becc3b387ea3417edb1fd798">start</a> ()</td></tr>
+<tr class="memdesc:a2a575d31becc3b387ea3417edb1fd798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the device discoverable and ready to accept connections.  <br /></td></tr>
 <tr class="separator:a2a575d31becc3b387ea3417edb1fd798"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad027c4c6d7f363c8ac295eaed16f7059" id="r_ad027c4c6d7f363c8ac295eaed16f7059"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1BtManager.html#ad027c4c6d7f363c8ac295eaed16f7059">stop</a> ()</td></tr>
+<tr class="memdesc:ad027c4c6d7f363c8ac295eaed16f7059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects and stops advertising.  <br /></td></tr>
 <tr class="separator:ad027c4c6d7f363c8ac295eaed16f7059"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a579387258b8c9952bc72c8fb95ea1cf5" id="r_a579387258b8c9952bc72c8fb95ea1cf5"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespacetaptune.html#ae1182987dce568766a59b350239a2ef7">AppEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1BtManager.html#a579387258b8c9952bc72c8fb95ea1cf5">pollEvent</a> ()</td></tr>
+<tr class="memdesc:a579387258b8c9952bc72c8fb95ea1cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the next event from the Bluetooth event queue, if any.  <br /></td></tr>
 <tr class="separator:a579387258b8c9952bc72c8fb95ea1cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -87,6 +92,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initializes the Bluetooth controller and A2DP sink. </p>
+
 </div>
 </div>
 <a id="a5e63f9313479d774e56ee10009676ccd" name="a5e63f9313479d774e56ee10009676ccd"></a>
@@ -103,6 +110,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Cleans up Bluetooth resources. </p>
 
 </div>
 </div>
@@ -122,6 +131,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Retrieves the next event from the Bluetooth event queue, if any. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::optional&lt;AppEvent&gt; The event, or std::nullopt if queue is empty. </dd></dl>
+
 </div>
 </div>
 <a id="a2a575d31becc3b387ea3417edb1fd798" name="a2a575d31becc3b387ea3417edb1fd798"></a>
@@ -139,6 +151,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Makes the device discoverable and ready to accept connections. </p>
+
 </div>
 </div>
 <a id="ad027c4c6d7f363c8ac295eaed16f7059" name="ad027c4c6d7f363c8ac295eaed16f7059"></a>
@@ -155,6 +169,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Disconnects and stops advertising. </p>
 
 </div>
 </div>

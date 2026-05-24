@@ -58,12 +58,16 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4724633e94749f70f38c63819636c944" id="r_a4724633e94749f70f38c63819636c944"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1DisplayManager.html#a4724633e94749f70f38c63819636c944">DisplayManager</a> ()</td></tr>
+<tr class="memdesc:a4724633e94749f70f38c63819636c944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes I2C and LVGL, sets up the default screen.  <br /></td></tr>
 <tr class="separator:a4724633e94749f70f38c63819636c944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01f6198808657a59e642de052cbddd65" id="r_a01f6198808657a59e642de052cbddd65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1DisplayManager.html#a01f6198808657a59e642de052cbddd65">~DisplayManager</a> ()</td></tr>
+<tr class="memdesc:a01f6198808657a59e642de052cbddd65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitializes LVGL.  <br /></td></tr>
 <tr class="separator:a01f6198808657a59e642de052cbddd65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed0613231b6464c7e47f4408efe72a47" id="r_aed0613231b6464c7e47f4408efe72a47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1DisplayManager.html#aed0613231b6464c7e47f4408efe72a47">applyState</a> (<a class="el" href="namespacetaptune.html#ad83b1f68253d00eabc838cb109086c4c">AppState</a> state)</td></tr>
+<tr class="memdesc:aed0613231b6464c7e47f4408efe72a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the label on the display to reflect the new state.  <br /></td></tr>
 <tr class="separator:aed0613231b6464c7e47f4408efe72a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd467fea887678134edd5b7a53f4f82e" id="r_abd467fea887678134edd5b7a53f4f82e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1DisplayManager.html#abd467fea887678134edd5b7a53f4f82e">tick</a> ()</td></tr>
+<tr class="memdesc:abd467fea887678134edd5b7a53f4f82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the LVGL timer handler. Must be called every 20ms.  <br /></td></tr>
 <tr class="separator:abd467fea887678134edd5b7a53f4f82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -85,6 +89,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initializes I2C and LVGL, sets up the default screen. </p>
+
 </div>
 </div>
 <a id="a01f6198808657a59e642de052cbddd65" name="a01f6198808657a59e642de052cbddd65"></a>
@@ -101,6 +107,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Deinitializes LVGL. </p>
 
 </div>
 </div>
@@ -121,6 +129,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Updates the label on the display to reflect the new state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>The current application state. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="abd467fea887678134edd5b7a53f4f82e" name="abd467fea887678134edd5b7a53f4f82e"></a>
@@ -137,6 +153,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Calls the LVGL timer handler. Must be called every 20ms. </p>
 
 </div>
 </div>

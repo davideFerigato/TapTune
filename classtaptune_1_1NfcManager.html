@@ -58,10 +58,13 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af708d41d9d02d49631e89c7e933497b2" id="r_af708d41d9d02d49631e89c7e933497b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1NfcManager.html#af708d41d9d02d49631e89c7e933497b2">NfcManager</a> ()</td></tr>
+<tr class="memdesc:af708d41d9d02d49631e89c7e933497b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the PN532 and configures it as an NFC target.  <br /></td></tr>
 <tr class="separator:af708d41d9d02d49631e89c7e933497b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5ecef07156edef2cc0957f31c5b4cbf" id="r_aa5ecef07156edef2cc0957f31c5b4cbf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1NfcManager.html#aa5ecef07156edef2cc0957f31c5b4cbf">~NfcManager</a> ()</td></tr>
+<tr class="memdesc:aa5ecef07156edef2cc0957f31c5b4cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitializes resources.  <br /></td></tr>
 <tr class="separator:aa5ecef07156edef2cc0957f31c5b4cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07279979ee10ba43c8b4352d2b5e15c9" id="r_a07279979ee10ba43c8b4352d2b5e15c9"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespacetaptune.html#ae1182987dce568766a59b350239a2ef7">AppEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1NfcManager.html#a07279979ee10ba43c8b4352d2b5e15c9">pollEvent</a> ()</td></tr>
+<tr class="memdesc:a07279979ee10ba43c8b4352d2b5e15c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the next event from the NFC event queue, if any.  <br /></td></tr>
 <tr class="separator:a07279979ee10ba43c8b4352d2b5e15c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -83,6 +86,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initializes the PN532 and configures it as an NFC target. </p>
+
 </div>
 </div>
 <a id="aa5ecef07156edef2cc0957f31c5b4cbf" name="aa5ecef07156edef2cc0957f31c5b4cbf"></a>
@@ -99,6 +104,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Deinitializes resources. </p>
 
 </div>
 </div>
@@ -117,6 +124,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Retrieves the next event from the NFC event queue, if any. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::optional&lt;AppEvent&gt; The event, or std::nullopt if queue is empty. </dd></dl>
 
 </div>
 </div>

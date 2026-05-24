@@ -64,10 +64,13 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2f5b25d209d53f4fe1f976c9eca53d8f" id="r_a2f5b25d209d53f4fe1f976c9eca53d8f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1StateMachine.html#a2f5b25d209d53f4fe1f976c9eca53d8f">StateMachine</a> (<a class="el" href="classtaptune_1_1StateMachine.html#a8702e34bf5b16f99ef07baf2e210ca14">StateCallback</a> cb)</td></tr>
+<tr class="memdesc:a2f5b25d209d53f4fe1f976c9eca53d8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the state machine with a callback invoked at every transition.  <br /></td></tr>
 <tr class="separator:a2f5b25d209d53f4fe1f976c9eca53d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac506daeb42de8ae599e6a28f8be7b16b" id="r_ac506daeb42de8ae599e6a28f8be7b16b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1StateMachine.html#ac506daeb42de8ae599e6a28f8be7b16b">dispatch</a> (<a class="el" href="namespacetaptune.html#ae1182987dce568766a59b350239a2ef7">AppEvent</a> event)</td></tr>
+<tr class="memdesc:ac506daeb42de8ae599e6a28f8be7b16b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatches an event to the state machine, possibly triggering a transition.  <br /></td></tr>
 <tr class="separator:ac506daeb42de8ae599e6a28f8be7b16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbab88e29f5d5d5f9672f41fe66657bf" id="r_afbab88e29f5d5d5f9672f41fe66657bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacetaptune.html#ad83b1f68253d00eabc838cb109086c4c">AppState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaptune_1_1StateMachine.html#afbab88e29f5d5d5f9672f41fe66657bf">getState</a> () const</td></tr>
+<tr class="memdesc:afbab88e29f5d5d5f9672f41fe66657bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current application state.  <br /></td></tr>
 <tr class="separator:afbab88e29f5d5d5f9672f41fe66657bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -113,6 +116,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructs the state machine with a callback invoked at every transition. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cb</td><td>Function to call with the new state. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -132,6 +143,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Dispatches an event to the state machine, possibly triggering a transition. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>The event to process. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="afbab88e29f5d5d5f9672f41fe66657bf" name="afbab88e29f5d5d5f9672f41fe66657bf"></a>
@@ -148,6 +167,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the current application state. </p>
+<dl class="section return"><dt>Returns</dt><dd>AppState The current state. </dd></dl>
 
 </div>
 </div>
