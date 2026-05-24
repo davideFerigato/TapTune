@@ -8,3 +8,5 @@ GENERATE_LATEX         = NO
 GENERATE_HTML          = YES
 HTML_OUTPUT            = .
 INPUT += README.md
+SEARCHENGINE = NO
+
