@@ -13,11 +13,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Remove shields.io badges from README (Doxygen compatibility)
+        run: |
+          cp README.md README_original.md
+          sed -i '/!\[.*\]\(https:\/\/img\.shields\.io\/.*\)/d' README.md
+
       - name: Install Doxygen
         run: sudo apt-get update && sudo apt-get install -y doxygen
 
       - name: Generate documentation
         run: doxygen Doxyfile
+
+      - name: Restore original README
+        run: mv README_original.md README.md
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

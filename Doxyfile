@@ -1,12 +1,11 @@
 PROJECT_NAME           = TapTune
 OUTPUT_DIRECTORY       = docs
-INPUT                  = src components
+INPUT                  = src components README.md
 EXCLUDE                = components/lvgl
 RECURSIVE              = YES
 EXTRACT_ALL            = YES
 GENERATE_LATEX         = NO
 GENERATE_HTML          = YES
 HTML_OUTPUT            = .
-INPUT += README.md
-SEARCHENGINE = NO
-
+USE_MDFILE_AS_MAINPAGE = README.md
+SEARCHENGINE           = NO
