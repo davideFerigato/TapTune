@@ -125,34 +125,34 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('nfc__manager_8
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacetaptune.html">taptune</a> {</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="classtaptune_1_1_nfc_manager.html">    9</a></span><span class="keyword">class </span><a class="code hl_function" href="classtaptune_1_1_nfc_manager.html#af708d41d9d02d49631e89c7e933497b2">NfcManager</a> {</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <a class="code hl_function" href="classtaptune_1_1_nfc_manager.html#af708d41d9d02d49631e89c7e933497b2">NfcManager</a>();</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <a class="code hl_function" href="classtaptune_1_1_nfc_manager.html#aa5ecef07156edef2cc0957f31c5b4cbf">~NfcManager</a>();</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    std::optional&lt;AppEvent&gt; <a class="code hl_function" href="classtaptune_1_1_nfc_manager.html#a07279979ee10ba43c8b4352d2b5e15c9">pollEvent</a>();</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">void</span> init();</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">void</span> handleTargetDetected();</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">void</span> writeCommand(<span class="keyword">const</span> uint8_t *cmd, <span class="keywordtype">size_t</span> len);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">void</span> readResponse(uint8_t *buf, <span class="keywordtype">size_t</span> len);</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span></div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classtaptune_1_1_nfc_manager.html">   16</a></span><span class="keyword">class </span><a class="code hl_function" href="classtaptune_1_1_nfc_manager.html#af708d41d9d02d49631e89c7e933497b2">NfcManager</a> {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_function" href="classtaptune_1_1_nfc_manager.html#af708d41d9d02d49631e89c7e933497b2">NfcManager</a>();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_function" href="classtaptune_1_1_nfc_manager.html#aa5ecef07156edef2cc0957f31c5b4cbf">~NfcManager</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    std::optional&lt;AppEvent&gt; <a class="code hl_function" href="classtaptune_1_1_nfc_manager.html#a07279979ee10ba43c8b4352d2b5e15c9">pollEvent</a>();</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span>* eventQueue_;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">bool</span> initialized_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">static</span> <a class="code hl_function" href="classtaptune_1_1_nfc_manager.html#af708d41d9d02d49631e89c7e933497b2">NfcManager</a>* instance_;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> s_targetTask(<span class="keywordtype">void</span>* arg);</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">void</span> init();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">void</span> handleTargetDetected();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> writeCommand(<span class="keyword">const</span> uint8_t *cmd, <span class="keywordtype">size_t</span> len);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">void</span> readResponse(uint8_t *buf, <span class="keywordtype">size_t</span> len);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span>* eventQueue_;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">bool</span> initialized_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">static</span> <a class="code hl_function" href="classtaptune_1_1_nfc_manager.html#af708d41d9d02d49631e89c7e933497b2">NfcManager</a>* instance_;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> s_targetTask(<span class="keywordtype">void</span>* arg);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
 </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>} <span class="comment">// namespace taptune</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>} <span class="comment">// namespace taptune</span></div>
 <div class="ttc" id="aclasstaptune_1_1_nfc_manager_html_a07279979ee10ba43c8b4352d2b5e15c9"><div class="ttname"><a href="classtaptune_1_1_nfc_manager.html#a07279979ee10ba43c8b4352d2b5e15c9">taptune::NfcManager::pollEvent</a></div><div class="ttdeci">std::optional&lt; AppEvent &gt; pollEvent()</div><div class="ttdef"><b>Definition</b> nfc_manager.cpp:37</div></div>
 <div class="ttc" id="aclasstaptune_1_1_nfc_manager_html_aa5ecef07156edef2cc0957f31c5b4cbf"><div class="ttname"><a href="classtaptune_1_1_nfc_manager.html#aa5ecef07156edef2cc0957f31c5b4cbf">taptune::NfcManager::~NfcManager</a></div><div class="ttdeci">~NfcManager()</div><div class="ttdef"><b>Definition</b> nfc_manager.cpp:31</div></div>
 <div class="ttc" id="aclasstaptune_1_1_nfc_manager_html_af708d41d9d02d49631e89c7e933497b2"><div class="ttname"><a href="classtaptune_1_1_nfc_manager.html#af708d41d9d02d49631e89c7e933497b2">taptune::NfcManager::NfcManager</a></div><div class="ttdeci">NfcManager()</div><div class="ttdef"><b>Definition</b> nfc_manager.cpp:21</div></div>
-<div class="ttc" id="anamespacetaptune_html"><div class="ttname"><a href="namespacetaptune.html">taptune</a></div><div class="ttdef"><b>Definition</b> audio_manager.hpp:3</div></div>
+<div class="ttc" id="anamespacetaptune_html"><div class="ttname"><a href="namespacetaptune.html">taptune</a></div><div class="ttdoc">Main namespace for the TapTune embedded project.</div><div class="ttdef"><b>Definition</b> audio_manager.hpp:3</div></div>
 <div class="ttc" id="astate__machine_8hpp_html"><div class="ttname"><a href="state__machine_8hpp.html">state_machine.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

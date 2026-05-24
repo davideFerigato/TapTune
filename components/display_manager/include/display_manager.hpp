@@ -6,6 +6,13 @@
 
 namespace taptune {
 
+/**
+ * @brief Manages the OLED display.
+ * 
+ * Initializes the I2C bus for the SSD1306 display and the LVGL library.
+ * Updates the screen in real-time to reflect the current application state
+ * (e.g., "Idle", "Streaming").
+ */
 class DisplayManager {
 public:
     DisplayManager();

@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['taptune_0',['taptune',['../namespacetaptune.html',1,'']]],
-  ['taptune_3a_3aconfig_1',['config',['../namespacetaptune_1_1config.html',1,'taptune']]],
-  ['taptune_3a_3apins_2',['pins',['../namespacetaptune_1_1pins.html',1,'taptune']]],
-  ['tick_3',['tick',['../classtaptune_1_1_display_manager.html#abd467fea887678134edd5b7a53f4f82e',1,'taptune::DisplayManager::tick()'],['../classtaptune_1_1_tone_player.html#ad8c8135285e12e551aa70b24c3e3a655',1,'taptune::TonePlayer::tick()']]],
-  ['tone_5fplayer_2ecpp_4',['tone_player.cpp',['../tone__player_8cpp.html',1,'']]],
-  ['tone_5fplayer_2ehpp_5',['tone_player.hpp',['../tone__player_8hpp.html',1,'']]],
-  ['toneplayer_6',['TonePlayer',['../classtaptune_1_1_tone_player.html',1,'taptune::TonePlayer'],['../classtaptune_1_1_tone_player.html#a0f9b29a0525c6399f6a18f93e375d8bc',1,'taptune::TonePlayer::TonePlayer()']]]
+  ['pins_2ehpp_0',['pins.hpp',['../pins_8hpp.html',1,'']]],
+  ['pollevent_1',['pollEvent',['../classtaptune_1_1_bt_manager.html#a579387258b8c9952bc72c8fb95ea1cf5',1,'taptune::BtManager::pollEvent()'],['../classtaptune_1_1_nfc_manager.html#a07279979ee10ba43c8b4352d2b5e15c9',1,'taptune::NfcManager::pollEvent()']]],
+  ['prerequisites_2',['Prerequisites',['../md__r_e_a_d_m_e.html#autotoc_md6',1,'']]]
 ];

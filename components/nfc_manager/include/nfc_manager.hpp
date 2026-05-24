@@ -6,6 +6,13 @@
 
 namespace taptune {
 
+/**
+ * @brief Manages the PN532 NFC module.
+ * 
+ * Configures the PN532 in target emulation mode. When an external reader
+ * (e.g., a smartphone) reads the tag, an event is generated to trigger the
+ * Bluetooth connection flow.
+ */
 class NfcManager {
 public:
     NfcManager();

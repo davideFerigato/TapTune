@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['_7ebtmanager_0',['~BtManager',['../classtaptune_1_1_bt_manager.html#a5e63f9313479d774e56ee10009676ccd',1,'taptune::BtManager']]],
-  ['_7edisplaymanager_1',['~DisplayManager',['../classtaptune_1_1_display_manager.html#a01f6198808657a59e642de052cbddd65',1,'taptune::DisplayManager']]],
-  ['_7enfcmanager_2',['~NfcManager',['../classtaptune_1_1_nfc_manager.html#aa5ecef07156edef2cc0957f31c5b4cbf',1,'taptune::NfcManager']]]
+  ['readme_0',['README',['../md__r_e_a_d_m_e.html',1,'']]],
+  ['readme_2emd_1',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['repository_20structure_2',['📂 Repository Structure',['../md__r_e_a_d_m_e.html#autotoc_md3',1,'']]],
+  ['roadmap_3',['📈 Roadmap',['../md__r_e_a_d_m_e.html#autotoc_md14',1,'']]],
+  ['running_20tests_4',['Running Tests',['../md__r_e_a_d_m_e.html#autotoc_md8',1,'']]]
 ];

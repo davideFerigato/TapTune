@@ -6,5 +6,6 @@ var searchData=
   ['bootcompleted_3',['BootCompleted',['../namespacetaptune.html#ae1182987dce568766a59b350239a2ef7a32b5b0794b296b38909c879304297c39',1,'taptune']]],
   ['bt_5fmanager_2ecpp_4',['bt_manager.cpp',['../bt__manager_8cpp.html',1,'']]],
   ['bt_5fmanager_2ehpp_5',['bt_manager.hpp',['../bt__manager_8hpp.html',1,'']]],
-  ['btmanager_6',['BtManager',['../classtaptune_1_1_bt_manager.html',1,'taptune::BtManager'],['../classtaptune_1_1_bt_manager.html#af0f3aa2be4ba29e9d6714914820db484',1,'taptune::BtManager::BtManager()']]]
+  ['btmanager_6',['BtManager',['../classtaptune_1_1_bt_manager.html',1,'taptune::BtManager'],['../classtaptune_1_1_bt_manager.html#af0f3aa2be4ba29e9d6714914820db484',1,'taptune::BtManager::BtManager()']]],
+  ['build_20and_20upload_7',['Build and Upload',['../md__r_e_a_d_m_e.html#autotoc_md7',1,'']]]
 ];

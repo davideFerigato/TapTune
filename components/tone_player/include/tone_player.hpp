@@ -4,6 +4,13 @@
 
 namespace taptune {
 
+/**
+ * @brief Controls the passive buzzer using PWM.
+ * 
+ * Plays non-blocking audio patterns for application events:
+ * - Connecting: Short beep at 1200Hz.
+ * - Streaming: Alternating beep at 1800Hz.
+ */
 class TonePlayer {
 public:
     TonePlayer();

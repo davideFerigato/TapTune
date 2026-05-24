@@ -119,6 +119,9 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('classtaptune_1
 </div><!--header-->
 <div class="contents">
 
+<p>Controls the passive buzzer using PWM.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="tone__player_8hpp_source.html">tone_player.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -127,7 +130,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a213c7eb6694ca7e2005a2e1f9c53ecbb" id="r_a213c7eb6694ca7e2005a2e1f9c53ecbb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a213c7eb6694ca7e2005a2e1f9c53ecbb">onStateChanged</a> (<a class="el" href="namespacetaptune.html#ad83b1f68253d00eabc838cb109086c4c">AppState</a> state)</td></tr>
 <tr class="memitem:ad8c8135285e12e551aa70b24c3e3a655" id="r_ad8c8135285e12e551aa70b24c3e3a655"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad8c8135285e12e551aa70b24c3e3a655">tick</a> ()</td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Controls the passive buzzer using PWM. </p>
+<p>Plays non-blocking audio patterns for application events:</p><ul>
+<li>Connecting: Short beep at 1200Hz.</li>
+<li>Streaming: Alternating beep at 1800Hz. </li>
+</ul>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0f9b29a0525c6399f6a18f93e375d8bc" name="a0f9b29a0525c6399f6a18f93e375d8bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0f9b29a0525c6399f6a18f93e375d8bc">&#9670;&#160;</a></span>TonePlayer()</h2>
 
