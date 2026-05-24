@@ -74,7 +74,7 @@ var searchData=
   ['lv_5flayout_5fupdate_5fcb_5ft_71',['lv_layout_update_cb_t',['../lv__obj__pos_8h.html#a8618f2223b278e87d3d245b9f9d23a2c',1,'lv_obj_pos.h']]],
   ['lv_5fll_5fnode_5ft_72',['lv_ll_node_t',['../lv__ll_8h.html#aaaf22c8c1939f8ea17c80be0b1e9f299',1,'lv_ll.h']]],
   ['lv_5flog_5flevel_5ft_73',['lv_log_level_t',['../lv__log_8h.html#a197d0f37f70d0d25b7fb8a12bf5394cf',1,'lv_log.h']]],
-  ['lv_5flru_5ffree_5ft_74',['lv_lru_free_t',['../lv__lru_8h.html#abe348580acc0f079a2014ec2d3cc2650',1,'lv_lru.h']]],
+  ['lv_5flru_5ffree_5ft_74',['lv_lru_free_t',['../lv__lru_8h.html#a24f17b9ad10af22f079ccbddb7610bcb',1,'lv_lru.h']]],
   ['lv_5flru_5fitem_5ft_75',['lv_lru_item_t',['../lv__lru_8h.html#a5990cc8b1cafca927220402af44963d8',1,'lv_lru.h']]],
   ['lv_5flru_5ft_76',['lv_lru_t',['../lv__lru_8h.html#a9b8f983c736a06243dba796321e5a9a6',1,'lv_lru.h']]],
   ['lv_5fmem_5fbuf_5farr_5ft_77',['lv_mem_buf_arr_t',['../lv__mem_8h.html#a6286f05b621fdd4e55ad5b4cf627fffb',1,'lv_mem.h']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['displaymanager_0',['DisplayManager',['../classtaptune_1_1DisplayManager.html',1,'taptune']]]
+  ['nfcmanager_0',['NfcManager',['../classtaptune_1_1NfcManager.html',1,'taptune']]]
 ];

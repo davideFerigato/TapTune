@@ -11,6 +11,6 @@ digraph "components/display_manager/src"
   dir_4aa9b46a452ecb48cdea89d3fe0a893e [label="src", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_4aa9b46a452ecb48cdea89d3fe0a893e.html",tooltip=""];
   }
   dir_88015a5f2480cf5918e7361e811a495e [label="taptune_config", fillcolor="#edf0f7", color="red", style="filled,dashed", URL="dir_88015a5f2480cf5918e7361e811a495e.html",tooltip=""];
-  dir_4aa9b46a452ecb48cdea89d3fe0a893e->dir_4b01e9a6c468a6fce61f55053e6047f7 [headlabel="1", labeldistance=1.5 headhref="dir_000152_000073.html" href="dir_000152_000073.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_4aa9b46a452ecb48cdea89d3fe0a893e->dir_88015a5f2480cf5918e7361e811a495e [headlabel="2", labeldistance=1.5 headhref="dir_000152_000170.html" href="dir_000152_000170.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_4aa9b46a452ecb48cdea89d3fe0a893e->dir_4b01e9a6c468a6fce61f55053e6047f7 [headlabel="1", labeldistance=1.5 headhref="dir_000016_000006.html" href="dir_000016_000006.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_4aa9b46a452ecb48cdea89d3fe0a893e->dir_88015a5f2480cf5918e7361e811a495e [headlabel="2", labeldistance=1.5 headhref="dir_000016_000023.html" href="dir_000016_000023.html" color="steelblue1" fontcolor="steelblue1"];
 }

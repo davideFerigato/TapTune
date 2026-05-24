@@ -1,13 +1,8 @@
 var searchData=
 [
-  ['ffmpeg_20support_0',['FFmpeg support',['../md_components_2lvgl_2docs_2libs_2ffmpeg.html',1,'']]],
-  ['file_20system_1',['File system',['../md_components_2lvgl_2docs_2overview_2file-system.html',1,'']]],
-  ['file_20system_20interfaces_2',['File System Interfaces',['../md_components_2lvgl_2docs_2libs_2fsdrv.html',1,'']]],
-  ['flex_3',['Flex',['../md_components_2lvgl_2docs_2layouts_2flex.html',1,'']]],
-  ['font_20engine_4',['Tiny TTF font engine',['../md_components_2lvgl_2docs_2libs_2tiny__ttf.html',1,'']]],
-  ['font_20imgfont_5',['Image font (imgfont)',['../md_components_2lvgl_2docs_2others_2imgfont.html',1,'']]],
-  ['fonts_6',['Fonts',['../md_components_2lvgl_2docs_2overview_2font.html',1,'']]],
-  ['fragment_7',['Fragment',['../md_components_2lvgl_2docs_2others_2fragment.html',1,'']]],
-  ['freertos_8',['FreeRTOS',['../md_components_2lvgl_2docs_2get-started_2os_2freertos.html',1,'']]],
-  ['freetype_20support_9',['FreeType support',['../md_components_2lvgl_2docs_2libs_2freetype.html',1,'']]]
+  ['7_200_2020_2010_202020_0',['v7.7.0 (20.10.2020)',['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md144',1,'']]],
+  ['7_201_2003_2011_202020_1',['v7.7.1 (03.11.2020)',['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md142',1,'']]],
+  ['7_202_2017_2011_202020_2',['v7.7.2 (17.11.2020)',['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md140',1,'']]],
+  ['7_203_20may_202023_3',['&lt;a href=&quot;https://github.com/lvgl/lvgl/compare/v8.3.7...v8.3.6&quot;&gt;v8.3.7&lt;/a&gt; 3 May 2023',['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md49',1,'']]],
+  ['7_20february_202023_4',['&lt;a href=&quot;https://github.com/lvgl/lvgl/compare/v8.3.4...v8.3.5&quot;&gt;v8.3.5&lt;/a&gt; 7 February 2023',['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md60',1,'']]]
 ];

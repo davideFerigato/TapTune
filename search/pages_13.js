@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['readme_5fpt_5fbr_0',['README_pt_BR',['../md_components_2lvgl_2README__pt__BR.html',1,'']]],
-  ['readme_5fzh_1',['README_zh',['../md_components_2lvgl_2README__zh.html',1,'']]],
-  ['renderer_2',['renderer',['../md_components_2lvgl_2docs_2overview_2renderers_2sdl.html',1,'SDL renderer'],['../md_components_2lvgl_2docs_2overview_2renderers_2sw.html',1,'Software renderer']]],
-  ['renderers_20and_20gpus_3',['Renderers and GPUs',['../md_components_2lvgl_2docs_2overview_2renderers_2index.html',1,'']]],
-  ['renesas_4',['Renesas',['../md_components_2lvgl_2docs_2get-started_2platforms_2renesas.html',1,'']]],
-  ['roadmap_5',['Roadmap',['../md_components_2lvgl_2docs_2ROADMAP.html',1,'']]],
-  ['roller_20lv_5froller_6',['Roller (lv_roller)',['../md_components_2lvgl_2docs_2widgets_2core_2roller.html',1,'']]],
-  ['rt_20os_7',['(RT)OS',['../md_components_2lvgl_2docs_2get-started_2os_2index.html',1,'']]],
-  ['rt_20thread_20rtos_8',['RT-Thread RTOS',['../md_components_2lvgl_2docs_2get-started_2os_2rt-thread.html',1,'']]],
-  ['rtos_9',['rtos',['../md_components_2lvgl_2docs_2get-started_2os_2nuttx.html',1,'NuttX RTOS'],['../md_components_2lvgl_2docs_2get-started_2os_2rt-thread.html',1,'RT-Thread RTOS']]]
+  ['january_202022_0',['&lt;a href=&quot;https://github.com/littlevgl/lvgl/compare/v8.1.0...v8.2.0&quot;&gt;v8.2.0&lt;/a&gt; 31 January 2022',['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md88',1,'']]],
+  ['join_20the_20conversations_20in_20the_20forum_1',['Join the conversations in the Forum',['../md_components_2lvgl_2docs_2_c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md223',1,'']]],
+  ['jpg_20decoder_2',['JPG decoder',['../md_components_2lvgl_2docs_2libs_2sjpg.html',1,'']]],
+  ['jpg_20to_20c_20array_3',['Converting JPG to C array',['../md_components_2lvgl_2docs_2libs_2sjpg.html#autotoc_md457',1,'']]],
+  ['jpg_20to_20sjpg_4',['Converting JPG to SJPG',['../md_components_2lvgl_2docs_2libs_2sjpg.html#autotoc_md458',1,'']]],
+  ['july_202022_5',['July 2022',['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md80',1,'&lt;a href=&quot;https://github.com/lvgl/lvgl/compare/v8.2.0...v8.3.0&quot;&gt;v8.3.0&lt;/a&gt; 6 July 2022'],['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md76',1,'&lt;a href=&quot;https://github.com/lvgl/lvgl/compare/v8.3.0...v8.3.1&quot;&gt;v8.3.1&lt;/a&gt; 25 July 2022']]],
+  ['july_202023_6',['&lt;a href=&quot;https://github.com/lvgl/lvgl/compare/v8.3.8...v8.3.7&quot;&gt;v8.3.8&lt;/a&gt; 5 July 2023',['../md_components_2lvgl_2docs_2_c_h_a_n_g_e_l_o_g.html#autotoc_md41',1,'']]]
 ];

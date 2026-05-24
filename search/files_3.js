@@ -1,20 +1,5 @@
 var searchData=
 [
-  ['calendar_2emd_0',['calendar.md',['../calendar_8md.html',1,'']]],
-  ['canvas_2emd_1',['canvas.md',['../canvas_8md.html',1,'']]],
-  ['changelog_2emd_2',['CHANGELOG.md',['../CHANGELOG_8md.html',1,'']]],
-  ['chart_2emd_3',['chart.md',['../chart_8md.html',1,'']]],
-  ['checkbox_2emd_4',['checkbox.md',['../checkbox_8md.html',1,'']]],
-  ['cmake_2emd_5',['cmake.md',['../cmake_8md.html',1,'']]],
-  ['code_2dformat_2epy_6',['code-format.py',['../code-format_8py.html',1,'']]],
-  ['code_5fof_5fconduct_2emd_7',['CODE_OF_CONDUCT.md',['../CODE__OF__CONDUCT_8md.html',1,'']]],
-  ['coding_5fstyle_2emd_8',['CODING_STYLE.md',['../CODING__STYLE_8md.html',1,'']]],
-  ['color_2emd_9',['color.md',['../color_8md.html',1,'']]],
-  ['colorwheel_2emd_10',['colorwheel.md',['../colorwheel_8md.html',1,'']]],
-  ['com_2epy_11',['com.py',['../com_8py.html',1,'']]],
-  ['conf_2epy_12',['conf.py',['../conf_8py.html',1,'']]],
-  ['config_2ehpp_13',['config.hpp',['../config_8hpp.html',1,'']]],
-  ['contributing_2emd_14',['CONTRIBUTING.md',['../CONTRIBUTING_8md.html',1,'']]],
-  ['coords_2emd_15',['coords.md',['../coords_8md.html',1,'']]],
-  ['cpp_2emd_16',['cpp.md',['../cpp_8md.html',1,'']]]
+  ['display_5fmanager_2ecpp_0',['display_manager.cpp',['../display__manager_8cpp.html',1,'']]],
+  ['display_5fmanager_2ehpp_1',['display_manager.hpp',['../display__manager_8hpp.html',1,'']]]
 ];

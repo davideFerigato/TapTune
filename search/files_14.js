@@ -4,7 +4,7 @@ var searchData=
   ['tabview_2emd_1',['tabview.md',['../tabview_8md.html',1,'']]],
   ['tasmota_2dberry_2emd_2',['tasmota-berry.md',['../tasmota-berry_8md.html',1,'']]],
   ['test_2ec_3',['test.c',['../test_8c.html',1,'']]],
-  ['test_2epy_4',['test.py',['../list_2test_8py.html',1,'(Global Namespace)'],['../bar_2test_8py.html',1,'(Global Namespace)']]],
+  ['test_2epy_4',['test.py',['../bar_2test_8py.html',1,'(Global Namespace)'],['../list_2test_8py.html',1,'(Global Namespace)']]],
   ['test_5farc_2ec_5',['test_arc.c',['../test__arc_8c.html',1,'']]],
   ['test_5fbar_2ec_6',['test_bar.c',['../test__bar_8c.html',1,'']]],
   ['test_5fcheckbox_2ec_7',['test_checkbox.c',['../test__checkbox_8c.html',1,'']]],
