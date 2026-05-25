@@ -119,9 +119,14 @@ See [`ARCHITECTURE.md`](ARCHITECTURE.md) for the state diagram and component int
 
 ## 📈 Roadmap
 
-- [ ] Phase 0‑7: Setup, core components, integration
-- [ ] Phase 8: End‑to‑end integration, system tests
-- [ ] Phase 9: Technical documentation and Doxygen
-- [ ] Phase 10: CI/CD GitHub Actions
-- [ ] Phase 11: Release v1.0.0
-- [ ] Phase 12: Video demo
+- [x] **Phase 1 – Hardware assembly** – All components assembled: ESP32, OLED, PN532, LED, buzzer, amplifier.\
+- [x] **Phase 2 – PlatformIO project setup** – Repository structure, build system, configuration files.\
+- [x] **Phase 3 – State machine** – Finite state machine with transitions: `Boot → Idle → Connecting → Connected → Streaming`.\
+- [x] **Phase 4 – LED indicator + Tone player** – RGB LED visual feedback and non-blocking PWM buzzer patterns.\
+- [x] **Phase 5 – OLED display with LVGL** – LVGL integration for SSD1306 I²C, showing current state.\
+- [x] **Phase 6 – Bluetooth A2DP sink** – Bluetooth stack initialization, discoverable mode, connection and streaming events.\
+- [x] **Phase 7 – NFC manager** – PN532 target emulation mode, NDEF record generation, `NfcTapped` event.\
+- [x] **Phase 8 – End-to-end integration + tests** – Unity and native C++ tests for the state machine, full component integration.\
+- [x] **Phase 9 – Technical documentation** – README, ARCHITECTURE, ADRs, CHANGELOG, Doxygen, GitHub Pages.\
+- [x] **Phase 10 – CI/CD with GitHub Actions** – Build, test, clang-tidy, and documentation deployment workflows.\
+- [x] **Phase 11 – v1.0.0 release + polish** – Git tag, GitHub Release, logo, social preview, repository cleanup.\
