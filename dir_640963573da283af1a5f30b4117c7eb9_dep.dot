@@ -11,6 +11,6 @@ digraph "components/nfc_manager/src"
   dir_640963573da283af1a5f30b4117c7eb9 [label="src", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_640963573da283af1a5f30b4117c7eb9.html",tooltip=""];
   }
   dir_88015a5f2480cf5918e7361e811a495e [label="taptune_config", fillcolor="#edf0f7", color="red", style="filled,dashed", URL="dir_88015a5f2480cf5918e7361e811a495e.html",tooltip=""];
-  dir_640963573da283af1a5f30b4117c7eb9->dir_88015a5f2480cf5918e7361e811a495e [headlabel="2", labeldistance=1.5 headhref="dir_000018_000023.html" href="dir_000018_000023.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_640963573da283af1a5f30b4117c7eb9->dir_f948416d98d8eb9326480a3bb9c5cca2 [headlabel="1", labeldistance=1.5 headhref="dir_000018_000008.html" href="dir_000018_000008.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_640963573da283af1a5f30b4117c7eb9->dir_88015a5f2480cf5918e7361e811a495e [headlabel="2", labeldistance=1.5 headhref="dir_000015_000020.html" href="dir_000015_000020.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_640963573da283af1a5f30b4117c7eb9->dir_f948416d98d8eb9326480a3bb9c5cca2 [headlabel="1", labeldistance=1.5 headhref="dir_000015_000006.html" href="dir_000015_000006.html" color="steelblue1" fontcolor="steelblue1"];
 }
