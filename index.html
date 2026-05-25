@@ -131,12 +131,17 @@ Running Tests</h3>
 <h2><a class="anchor" id="autotoc_md14"></a>
 📈 Roadmap</h2>
 <ul>
-<li>[ ] Phase 0‑7: Setup, core components, integration</li>
-<li>[ ] Phase 8: End‑to‑end integration, system tests</li>
-<li>[ ] Phase 9: Technical documentation and Doxygen</li>
-<li>[ ] Phase 10: CI/CD GitHub Actions</li>
-<li>[ ] Phase 11: Release v1.0.0</li>
-<li>[ ] Phase 12: Video demo </li>
+<li>[x] <b>Phase 1 – Hardware assembly</b> – All components assembled: ESP32, OLED, PN532, LED, buzzer, amplifier.\</li>
+<li>[x] <b>Phase 2 – PlatformIO project setup</b> – Repository structure, build system, configuration files.\</li>
+<li>[x] <b>Phase 3 – State machine</b> – Finite state machine with transitions: <code>Boot → Idle → Connecting → Connected → Streaming</code>.\</li>
+<li>[x] <b>Phase 4 – LED indicator + Tone player</b> – RGB LED visual feedback and non-blocking PWM buzzer patterns.\</li>
+<li>[x] <b>Phase 5 – OLED display with LVGL</b> – LVGL integration for SSD1306 I²C, showing current state.\</li>
+<li>[x] <b>Phase 6 – Bluetooth A2DP sink</b> – Bluetooth stack initialization, discoverable mode, connection and streaming events.\</li>
+<li>[x] <b>Phase 7 – NFC manager</b> – PN532 target emulation mode, NDEF record generation, <code>NfcTapped</code> event.\</li>
+<li>[x] <b>Phase 8 – End-to-end integration + tests</b> – Unity and native C++ tests for the state machine, full component integration.\</li>
+<li>[x] <b>Phase 9 – Technical documentation</b> – README, ARCHITECTURE, ADRs, CHANGELOG, Doxygen, GitHub Pages.\</li>
+<li>[x] <b>Phase 10 – CI/CD with GitHub Actions</b> – Build, test, clang-tidy, and documentation deployment workflows.\</li>
+<li>[x] <b>Phase 11 – v1.0.0 release + polish</b> – Git tag, GitHub Release, logo, social preview, repository cleanup.\ </li>
 </ul>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
