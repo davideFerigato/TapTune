@@ -5,17 +5,7 @@
 <h1 align="center">TapTune</h1>
 
 <div align="center">
-
-![Platform](https://img.shields.io/badge/platform-ESP32-blue)
-![Framework](https://img.shields.io/badge/framework-ESP--IDF%206.0-red)
-![C++17](https://img.shields.io/badge/C++-17-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-yellow)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/davideFerigato/TapTune/ci.yml?label=CI)
-![GitHub last commit](https://img.shields.io/github/last-commit/davideFerigato/TapTune)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/davideFerigato/TapTune)
-[![DOI](https://zenodo.org/badge/1246708120.svg)](https://doi.org/10.5281/zenodo.20709915)
-
-
+    
 [![DOI](https://zenodo.org/badge/1246708120.svg)](https://doi.org/10.5281/zenodo.20709915)
 ![Platform](https://img.shields.io/badge/platform-ESP32-blue)
 ![Framework](https://img.shields.io/badge/framework-ESP--IDF%206.0-red)
