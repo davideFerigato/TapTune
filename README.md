@@ -13,6 +13,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/davideFerigato/TapTune/ci.yml?label=CI)
 ![GitHub last commit](https://img.shields.io/github/last-commit/davideFerigato/TapTune)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/davideFerigato/TapTune?label=release)
+[![DOI](https://zenodo.org/badge/1246708120.svg)](https://doi.org/10.5281/zenodo.20709915)
 
 </div>
 
