@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/davideFerigato/TapTune/main/docs/demo/tap_tune_logo.png" width="200" alt="TapTune Logo"/>
+  <img src="https://raw.githubusercontent.com/davideferigato/TapTune/main/docs/demo/tap_tune_logo.png" width="200" alt="TapTune Logo"/>
 </p>
 
 <h1 align="center">TapTune</h1>
@@ -11,9 +11,9 @@
 ![Framework](https://img.shields.io/badge/framework-ESP--IDF%206.0-red)
 ![C++17](https://img.shields.io/badge/C++-17-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/davideFerigato/TapTune/ci.yml?label=CI)](https://github.com/davideFerigato/TapTune/actions)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/davideFerigato/TapTune)](https://github.com/davideFerigato/TapTune/releases)
-![GitHub last commit](https://img.shields.io/github/last-commit/davideFerigato/TapTune)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/davideferigato/TapTune/ci.yml?label=CI)](https://github.com/davideferigato/TapTune/actions)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/davideferigato/TapTune)](https://github.com/davideferigato/TapTune/releases)
+![GitHub last commit](https://img.shields.io/github/last-commit/davideferigato/TapTune)
 [![Documentation](https://img.shields.io/badge/docs-Doxygen-blue.svg)](https://davideferigato.github.io/TapTune)
 
 </div>
@@ -68,7 +68,7 @@ TapTune/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/davideFerigato/TapTune.git
+   git clone https://github.com/davideferigato/TapTune.git
    cd TapTune
    ```
 2. Build:
